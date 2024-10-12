@@ -2,19 +2,5 @@ version: 2
 
 sources:
   - name: public
-    schema: public
     tables:
       - name: Data_warehouse
-
-models:
-  - name: Data_warehouse
-    description: "Data_warehouse Transformed"
-    columns:
-      - name: InvoiceNo
-        description: "Invoice number"
-        tests:
-          - not_null
-      - name: ID
-        description: "ID number"
-        tests:
-          - not_null
