@@ -6,6 +6,6 @@ WITH filtered_data AS (
     WHERE cleaned_message IS NOT NULL
 )
 
-SELECT 
+SELECT
     cleaned_message
-FROM filtered_data;
+FROM filtered_data
